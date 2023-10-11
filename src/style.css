@@ -1,0 +1,95 @@
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    background:url('https://catherineasquithgallery.com/uploads/posts/2023-02/1676531900_catherineasquithgallery-com-p-zelenii-minimalistichnii-fon-131.jpg') no-repeat center center;
+    position: relative;
+    margin: 0px 0px 0px;
+}
+
+.hh{
+    text-align: center;
+}
+
+.div1 {
+    border-bottom: solid 2px red;
+    width: 100%;
+}
+
+.b1 {
+    text-align: center;
+    overflow: hidden; 
+}
+
+.past {
+    text-align: center;
+    
+    width: 900px;
+    padding: 40px 100px 98px 100px;
+    margin: 20px 250px 20px 200px;
+    font-size: 22px;
+    background: linear-gradient(45deg, blue, orange);
+    position: relative;
+}
+
+.current {
+    text-align: center;
+    width: 900px;
+    padding: 40px 100px 98px 100px;
+    margin: 20px 250px 20px 200px;
+    font-size: 22px;
+    background: linear-gradient(45deg, orange, blue);
+    position: relative;
+}
+
+.past:hover {
+    border-radius: 24px;
+    transition: 0,2s;
+    border: 2px solid black;
+}
+
+.current:hover {
+    border-radius: 24px;
+    transition: 0,2s;
+    border: 2px solid black;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  transition: 1s; /* Время эффекта */
+  display: block;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.social-icons {
+    text-align: center;
+    padding: 5px;
+    background: repeating-linear-gradient(45deg,
+    #FF8100 0px, #FF8100 50px,
+    red 50px, red 100px,
+    yellow 100px, yellow 150px);
+    
+
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 42px;
+    height: 42px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.2);
+  }
